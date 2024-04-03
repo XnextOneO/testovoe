@@ -1,0 +1,113 @@
+
+.welcome-block {
+    background-image: url("../assets/images/welcome-block-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 203px;
+    padding-bottom: 242px;
+    width: 100%;
+}
+
+.content {
+    width: 1172px;
+}
+
+.welcome-block__title {
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: left;
+    color: black;
+    margin-bottom: 80px;
+
+}
+
+.welcome-block__title span {
+    color: #43ABF0;
+}
+
+.welcome-block__description {
+    margin-bottom: 80px;
+}
+
+.welcome-block__description p {
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: black;
+}
+
+.welcome-block__description ul li {
+    list-style-type: "– ";
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: black;
+}
+
+.welcome-block__buttons-wrapper {
+    display: flex;
+    gap: 30px;
+}
+
+.blue-button {
+    background-color: #43ABF0;
+    color: #fff;
+    padding: 15px 10px 15px 10px;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.6px;
+    text-align: center;
+    width: 183px;
+    cursor: pointer;
+}
+
+.blue-button:hover {
+    background-color: #fff;
+    color: black;
+    transition: 0.5s;
+}
+
+.blue-button:active {
+    background-color: #39bfd0;
+    color: #fff;
+}
+
+.white-button {
+    background-color: #fff;
+    color: black;
+    padding: 15px 10px 15px 10px;
+    border: 1px solid #6F6D7B;
+    border-radius: 4px;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.6px;
+    text-align: center;
+    width: 183px;
+    cursor: pointer;
+}
+
+.white-button:hover {
+    background-color: #43ABF0;
+    color: #fff;
+    transition: 0.5s;
+    border: 1px solid white;
+}
+
+.white-button:active {
+    background-color: #39bfd0;
+    color: black;
+}

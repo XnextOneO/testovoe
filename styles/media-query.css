@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+@media screen and (max-width: 1220px) {
+    header {
+        gap: 0;
+    }
+
+    .content {
+        width: 800px;
+    }
+
+    .circle {
+        width: 70px;
+        height: 70px;
+    }
+
+    .circle-and-description span {
+        width: 150px;
+    }
+
+    .dots {
+        margin-top: 40px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    footer > span {
+        padding-right: 0;
+        border-right: none;
+    }
+
+    .money__wrapper {
+        padding: 0;
+        border-right: none;
+    }
+
+    .social-media-wrapper {
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 1077px) {
+    .burger-button {
+        display: block;
+    }
+
+    header {
+        justify-content: space-around;
+    }
+
+    .nav-desktop {
+        display: none;
+    }
+
+    .circle-and-description span {
+        width: 100px;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1077px) {
+    .content {
+        width: 500px;
+    }
+
+    .send-form {
+        width: 500px;
+        justify-content: center;
+    }
+
+    .scrollbar__wrapper {
+        width: 370px;
+    }
+
+    .scrollbar__wrapper input {
+        width: 370px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .dots {
+        display: none;
+    }
+
+    .steps-wrapper {
+        gap: 50px;
+    }
+
+    .circle-and-description span {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .steps-wrapper {
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .steps-wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .content {
+        width: 300px;
+    }
+
+    .dropdown__content {
+        min-width: 300px;
+    }
+
+    .welcome-block__title {
+        font-size: 32px;
+        line-height: 30px;
+    }
+
+    .send-form {
+        width: 300px;
+    }
+
+    .dropdown__button {
+        width: 300px;
+    }
+
+    .scrollbar__wrapper {
+        width: 300px;
+    }
+
+    .scrollbar__wrapper input {
+        width: 300px;
+    }
+
+    .send {
+        width: 300px;
+    }
+}

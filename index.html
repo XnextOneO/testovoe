@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/welcome-block.css">
+    <link rel="stylesheet" href="styles/order-block.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/media-query.css">
 </head>
 <body>
 
@@ -33,10 +37,10 @@
 </header>
 <div class="welcome-block">
     <div class="content">
-        <h1 class="welcome-block-title"><span>LOREM IPSUM</span> DOLOR SIT <br/>AMET
+        <h1 class="welcome-block__title"><span>LOREM IPSUM</span> DOLOR SIT <br/>AMET
             CONSECTEUT <span>ADIPISCING</span>
         </h1>
-        <div class="welcome-block-description">
+        <div class="welcome-block__description">
             <p>At vero eos et accusamus et iusto odio dignissimos ducimus!</p>
             <ul>
                 <li>Totam rem aperiam eaque ipsa</li>
@@ -44,7 +48,7 @@
                 <li>Sed ut perspiciatis, unde omnis iste natus error</li>
             </ul>
         </div>
-        <div class="welcome-block-buttons-wrapper">
+        <div class="welcome-block__buttons-wrapper">
             <button class="blue-button">ЗАКАЗАТЬ</button>
             <button class="white-button">ПОДРОБНЕЕ</button>
         </div>
@@ -52,9 +56,9 @@
 
 </div>
 <div class="order-block">
-    <div class="content order-block-content">
-        <h1 class="order-block-title">ОФОРМЛЕНИЕ <span>ЗАКАЗА</span></h1>
-        <span class="order-block-description">
+    <div class="content order-block__content">
+        <h1 class="order-block__title">ОФОРМЛЕНИЕ <span>ЗАКАЗА</span></h1>
+        <span class="order-block__description">
             Перед заполнением формы ознакомьтесь с нашей схемой работы!
         </span>
         <div class="steps-wrapper">
@@ -95,11 +99,11 @@
         </div>
         <div class="send-form">
             <div class="dropdown">
-                <button class="dropdown-button">
+                <button class="dropdown__button">
                     <span>Выберите тип системы</span>
                     <img src="assets/images/arrow.svg" alt="">
                 </button>
-                <div class="dropdown-content">
+                <div class="dropdown__content">
                     <div>Option 1</div>
                     <div>Option 2</div>
                     <div>Option 3</div>
@@ -119,7 +123,7 @@
             </div>
             <input type="text" name="mail" placeholder="Ваше e-mail">
             <input type="text" name="name" placeholder="Ваше имя">
-            <div class="scrollbar-wrapper">
+            <div class="scrollbar__wrapper">
                 <div><span>Sed ut perspiciatis, unde omnis iste natus</span> <span><span id="demo"></span>%</span></div>
                 <input type="range" min="0" max="100" value="50" class="slider" id="myRange">
             </div>
@@ -134,31 +138,31 @@
 </div>
 <footer>
     <span>© 2018 «LoremIpsum.net» Все права защищены.</span>
-    <div class="money-wrapper">
-        <div class="footer-element">
+    <div class="money__wrapper">
+        <div class="footer__element">
             <img src="assets/images/qiwi.svg" alt="">
             <span>Qiwi wallet</span>
         </div>
-        <div class="footer-element">
+        <div class="footer__element">
             <img src="assets/images/yandex.svg" alt="">
             <span>Yandex Money</span>
         </div>
-        <div class="footer-element">
+        <div class="footer__element">
             <img src="assets/images/webmoney.svg" alt="">
             <span>Web Money</span>
         </div>
     </div>
     <div class="social-media-wrapper">
-        <div class="footer-element">
+        <div class="footer__element">
             <img src="assets/images/mail-footer.svg" alt="">
             <a href="">info@ipsum228.com</a>
         </div>
-        <div class="footer-element">
+        <div class="footer__element">
             <img src="assets/images/vk.svg" alt="">
             <a href="">Мы вконтакте</a>
         </div>
     </div>
 </footer>
-<script src="app.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>
