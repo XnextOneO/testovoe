@@ -151,3 +151,13 @@ body {
         width: 300px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .card__header__info span {
+        font-size: 12px;
+    }
+
+    .carousel {
+        width: 90%;
+    }
+}

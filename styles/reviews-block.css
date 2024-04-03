@@ -12,17 +12,16 @@
 }
 
 .carousel {
-    width: 50%; /* Width of carousel */
-    height: 166px; /* Height of carousel */
-    display: flex; /* Set inline elements */
-    align-items: center; /* Centering elements */
+    width: 50%;
+    height: 166px;
+    display: flex;
+    align-items: center;
 }
 
 .button {
-    position: relative; /* Set button in right position */
-    width: 40px; /* Width of button */
-    height: 40px; /* Height of button */
-    /* Style button */
+    position: relative;
+    width: 40px;
+    height: 40px;
     background: #43ABF0;
     color: #fff;
     border: 1px solid #000;
@@ -33,34 +32,33 @@
 }
 
 #button-back {
-    right: calc(100% - 16px); /* For set button in left position */
-    border-radius: 0 50% 50% 0; /* Set border radius */
+    right: calc(100% - 16px);
+    border-radius: 0 50% 50% 0;
 }
 
 #button-next {
-    right: 45px; /* For set button in right position */
-    border-radius: 50% 0 0 50%; /* Set border radius */
+    right: 45px;
+    border-radius: 50% 0 0 50%;
 }
 
 .card-container {
-    width: 100%; /* Width of card container */
-    display: flex; /* Set inline elements */
-    overflow-x: auto; /* Set overflow in horizontal scroll */
-    overflow-y: hidden; /* Hidden overflow in vertical scroll */
-    scroll-snap-type: x mandatory; /* Force the scroll to snap to the start of a scroll-snap area */
-    gap: 8px; /* Set gap between cards */
-    flex: 0 0 calc(100% - 16px); /* Set width of card container */
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    gap: 8px;
+    flex: 0 0 calc(100% - 16px);
 }
 
 .card-container::-webkit-scrollbar {
-    display: none; /* Hide scrollbar in Chrome, Safari and Opera */
+    display: none;
 }
 
 .card {
-    min-width: 150px; /* Set min width of card */
-    height: 150px; /* Set height of card */
-    scroll-snap-align: start; /* Set scroll snap */
-    /* Style card */
+    min-width: 150px;
+    height: 150px;
+    scroll-snap-align: start;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -71,7 +69,8 @@
 }
 
 .card:hover {
-    background: #4F5873; /* Set background color when hover */
+    background: #4F5873;
+    transition: 0.5s ease;
 }
 
 
